@@ -1,4 +1,6 @@
-﻿  연습3-1.cpp
-d:\네트워크게임프로그래밍\2018예시\실습\20170911네트워크1\연습3-1.cpp(16): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-d:\네트워크게임프로그래밍\2018예시\실습\20170911네트워크1\연습3-1.cpp(18): warning C4805: '==': 연산에 'BOOL' 형식과 'bool' 형식을 함께 사용하는 것은 안전하지 않습니다.
-  20170911네트워크1.vcxproj -> D:\네트워크게임프로그래밍\2018예시\실습\Debug\20170911네트워크1.exe
+﻿  연습3-3.cpp
+d:\네트워크게임프로그래밍\netgp\실습\20170911네트워크1\연습3-3.cpp(25): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(2218): note: 'gethostbyname' 선언을 참조하십시오.
+d:\네트워크게임프로그래밍\netgp\실습\20170911네트워크1\연습3-3.cpp(48): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
+  20170911네트워크1.vcxproj -> D:\네트워크게임프로그래밍\NetGP\실습\Debug\20170911네트워크1.exe
