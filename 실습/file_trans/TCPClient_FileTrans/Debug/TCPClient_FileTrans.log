@@ -1,6 +1,7 @@
 ﻿  TCPClient_FileTrans.cpp
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpclient_filetrans\tcpclient_filetrans.cpp(56): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpclient_filetrans\tcpclient_filetrans.cpp(57): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(1830): note: 'inet_addr' 선언을 참조하십시오.
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpclient_filetrans\tcpclient_filetrans.cpp(77): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpclient_filetrans\tcpclient_filetrans.cpp(78): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
-  TCPClient_FileTrans.vcxproj -> D:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\TCPClient_FileTrans\Debug\TCPClient_FileTrans.exe
+cl : 명령줄 warning D9028: 최소 다시 빌드에 실패했습니다. 정상 빌드로 되돌립니다.
+  TCPClient_FileTrans.vcxproj -> D:\네트워크게임프로그래밍\NetGP\실습\file_trans\TCPClient_FileTrans\Debug\TCPClient_FileTrans.exe

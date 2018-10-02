@@ -115,7 +115,7 @@ int main(int argc, char *argv[])
 
 	while (1) {
 		// accept() 클라이언트와 통신하게 새로운 소켓 생성과 리턴
-		// 클라이언트 ip+포트번호
+		// 클라이언트 ip+포트번호 알려줌 
 		addrlen = sizeof(clientaddr);
 		client_sock = accept(listen_sock, (SOCKADDR *)&clientaddr, &addrlen);
 		if (client_sock == INVALID_SOCKET) {
@@ -182,6 +182,7 @@ int main(int argc, char *argv[])
 
 			unsigned short fileNameLength = pathLen - idxfileNameEndPos - 1;	// 파일명 길이 계산 / NULL포인터값 빼																													
 			fileName = new char[fileNameLength + 1];
+			// src의 바이트를 dest로 복사합니다. 버퍼 자체 복사 
 			memcpy_s(fileName, fileNameLength, namebuf + (idxfileNameEndPos + 1), fileNameLength);
 			fileName[fileNameLength] = '\0';		//아스키코드 nul 정의
 

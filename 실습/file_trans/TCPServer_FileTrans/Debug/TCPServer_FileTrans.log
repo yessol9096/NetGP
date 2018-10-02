@@ -1,13 +1,13 @@
 ﻿  TCPServer_FileTrans.cpp
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(173): warning C4267: '초기화 중': 'size_t'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(129): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(173): warning C4267: '초기화 중': 'size_t'에서 'unsigned short'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(129): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(169): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(169): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(189): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(190): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\string.h(93): note: 'strcat' 선언을 참조하십시오.
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(197): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(198): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\stdio.h(207): note: 'fopen' 선언을 참조하십시오.
-d:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(204): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+d:\네트워크게임프로그래밍\netgp\실습\file_trans\tcpserver_filetrans\tcpserver_filetrans.cpp(205): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
   c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(1848): note: 'inet_ntoa' 선언을 참조하십시오.
-  TCPServer_FileTrans.vcxproj -> D:\네트워크게임프로그래밍\새 폴더\실습및 과제\file_trans\TCPServer_FileTrans\Debug\TCPServer_FileTrans.exe
+  TCPServer_FileTrans.vcxproj -> D:\네트워크게임프로그래밍\NetGP\실습\file_trans\TCPServer_FileTrans\Debug\TCPServer_FileTrans.exe

@@ -49,7 +49,8 @@ int main(int argc, char *argv[])
 	SOCKET sock = socket(AF_INET, SOCK_STREAM, 0);
 	if (sock == INVALID_SOCKET) err_quit("socket()");
 
-	// connect()
+	// connect() 서버와 연결 
+	// bind 안해줘도 자동으로 운영체제가 ip, 지역포트번호 할당 
 	SOCKADDR_IN serveraddr;
 	ZeroMemory(&serveraddr, sizeof(serveraddr));
 	serveraddr.sin_family = AF_INET;
