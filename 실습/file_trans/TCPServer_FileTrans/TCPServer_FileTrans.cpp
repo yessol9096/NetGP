@@ -56,7 +56,9 @@ int recvn(SOCKET s, char *buf, int len, int flags)
 			break;
 		left -= received;
 		ptr += received;
+		system("cls");
 		cout << "ÆÄÀÏ Àü¼Û·ü: [ "  << ( ((float)len - (float)left) / (float)len) * 100 <<  "% ] " << endl;
+		Sleep(1000);
 	}
 
 	return (len - left);
